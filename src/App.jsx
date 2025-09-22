@@ -1,34 +1,39 @@
+// src/App.jsx
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-
-// Pages
-import LandingPage from "./pages/LandingPage";
-import ChatBot from "./pages/ChatBot";
-import Lawyers from "./pages/Lawyers";
-import LawyerDetail from "./pages/LawyerDetail";
-
-// Components
+import { Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Tutorials from "./pages/Tutorials";
 
-export default function App() {
+// CHW pages
+import CHWDashboard from "./pages/chw/Dashboard";
+import PatientNew from "./pages/chw/PatientNew";
+import PatientView from "./pages/chw/PatientView";
+import Login from "./pages/chw/Login";
+
+function App() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Navbar */}
       <Navbar />
-
-      {/* Main Content */}
-      <main className="flex-1">
+      <main className="flex-1 bg-gray-50">
         <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/chat" element={<ChatBot />} />
-          <Route path="/lawyers" element={<Lawyers />} />
-          <Route path="/lawyer/:id" element={<LawyerDetail />} />
+          {/* Landing Page = CHW Dashboard (patient list) */}
+          <Route path="/" element={<Navigate to="/chw/dashboard" replace />} />
+
+          {/* CHW routes */}
+          <Route path="/chw/login" element={<Login />} />
+          <Route path="/chw/dashboard" element={<CHWDashboard />} />
+          <Route path="/chw/patient/new" element={<PatientNew />} />
+          <Route path="/chw/patient/:id" element={<PatientView />} />
+
+          {/* Tutorials */}
+          <Route path="/tutorials" element={<Tutorials />} />
+
+          {/* Fallback */}
+          <Route path="*" element={<Navigate to="/chw/dashboard" replace />} />
         </Routes>
       </main>
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 }
+
+export default App;

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "tut-bp",
+    "title": "How to measure BP (Digital Cuff)",
+    "steps": [
+      "Sit patient with arm at heart level",
+      "Wrap cuff 2 cm above elbow, snug",
+      "Start measurement; wait for reading",
+      "Record two readings 1–2 min apart"
+    ],
+    "media": ["/assets/tutorials/bp-1.png"],
+    "video": "https://www.youtube.com/embed/VIDEO_ID_BP"
+  },
+  {
+    "id": "tut-temp",
+    "title": "Digital Thermometer Usage",
+    "steps": [
+      "Clean probe",
+      "Place oral or axillary",
+      "Wait required time",
+      "Record method (oral/axillary)"
+    ],
+    "media": [],
+    "video": "https://www.youtube.com/embed/VIDEO_ID_TEMP"
+  },
+  {
+    "id": "tut-glucose",
+    "title": "Glucometer – Fingerstick",
+    "steps": [
+      "Wash hands",
+      "Lancet prick on side of finger",
+      "Apply blood to strip",
+      "Wait for reading"
+    ],
+    "media": [],
+    "video": "https://www.youtube.com/embed/VIDEO_ID_GLUCOSE"
+  },
+  {
+    "id": "tut-spo2",
+    "title": "Pulse Oximeter Guide",
+    "steps": [
+      "Warm fingers",
+      "Place clip on index finger",
+      "Wait for steady reading",
+      "Remove nail polish if needed"
+    ],
+    "media": [],
+    "video": "https://www.youtube.com/embed/VIDEO_ID_SPO2"
+  },
+  {
+    "id": "tut-preg",
+    "title": "Pregnancy Test Basics",
+    "steps": [
+      "Explain consent",
+      "Collect urine per kit instruction",
+      "Read result in specified time",
+      "Record lot & expiry of kit"
+    ],
+    "media": [],
+    "video": "https://www.youtube.com/embed/VIDEO_ID_PREG"
+  },
+  {
+    "id": "tut-wound",
+    "title": "Wound Dressing & Photo",
+    "steps": [
+      "Wear gloves",
+      "Clean wound with saline",
+      "Take steady photo with ruler for scale",
+      "Apply dressing gently"
+    ],
+    "media": [],
+    "video": "https://www.youtube.com/embed/VIDEO_ID_WOUND"
+  }
+]

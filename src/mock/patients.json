@@ -1,0 +1,75 @@
+[
+  {
+    "id": "pat-001",
+    "name": "Rajesh Kumar",
+    "age": 45,
+    "gender": "Male",
+    "phone": "+919876543210",
+    "address": {"village":"Bari","taluka":"X","district":"Y","state":"Z"},
+    "language":"hi",
+    "allergies": ["Penicillin"],
+    "chronicConditions":["Diabetes"],
+    "createdAt":"2025-01-10T08:00:00.000Z",
+    "updatedAt":"2025-01-10T08:00:00.000Z"
+  },
+  {
+    "id": "pat-002",
+    "name": "Priya Sharma",
+    "age": 32,
+    "gender": "Female",
+    "phone": "+918765432109",
+    "address": {"village":"Rampur","taluka":"A","district":"B","state":"Z"},
+    "language":"hi",
+    "allergies": [],
+    "chronicConditions":["Asthma"],
+    "createdAt":"2025-01-11T09:00:00.000Z",
+    "updatedAt":"2025-01-11T09:00:00.000Z"
+  },
+  {
+    "id": "pat-003",
+    "name": "Amit Patel",
+    "age": 28,
+    "gender": "Male",
+    "phone": "+917654321098",
+    "address": {"village":"Gopal","taluka":"C","district":"D","state":"Z"},
+    "language":"en",
+    "allergies": [],
+    "chronicConditions":[],
+    "createdAt":"2025-01-12T10:00:00.000Z",
+    "updatedAt":"2025-01-12T10:00:00.000Z"
+  },
+  {
+    "id": "pat-004",
+    "name": "Sunita Devi",
+    "age": 55,
+    "gender": "Female",
+    "phone": "+916543210987",
+    "address": {"village":"VillageX","taluka":"E","district":"F","state":"Z"},
+    "language":"hi",
+    "allergies": ["NSAIDs"],
+    "chronicConditions":["Arthritis","Thyroid"],
+    "createdAt":"2025-01-12T10:30:00.000Z",
+    "updatedAt":"2025-01-12T10:30:00.000Z"
+  },
+  {
+    "id": "pat-005",
+    "name": "Ramesh Yadav",
+    "age": 62,
+    "gender": "Male",
+    "phone": "+919123456789",
+    "address": {"village":"P","taluka":"Q","district":"R","state":"Z"},
+    "language":"hi",
+    "allergies": [],
+    "chronicConditions":["Hypertension"],
+    "createdAt":"2025-01-13T08:00:00.000Z",
+    "updatedAt":"2025-01-13T08:00:00.000Z"
+  },
+  {
+    "id":"pat-006","name":"Geeta Kumari","age":27,"gender":"Female","phone":"+919876000111",
+    "address":{"village":"M","taluka":"N","district":"O","state":"Z"},"language":"hi","allergies":[],"chronicConditions":[],"createdAt":"2025-01-13T09:00:00.000Z","updatedAt":"2025-01-13T09:00:00.000Z"
+  },
+  {"id":"pat-007","name":"Mohit Singh","age":34,"gender":"Male","phone":"+919990001122","address":{"village":"R1","taluka":"R2","district":"R3","state":"Z"},"language":"en","allergies":[],"chronicConditions":["None"],"createdAt":"2025-01-13T10:00:00.000Z","updatedAt":"2025-01-13T10:00:00.000Z"},
+  {"id":"pat-008","name":"Kavita Rao","age":41,"gender":"Female","phone":"+919880002233","address":{"village":"S","taluka":"T","district":"U","state":"Z"},"language":"hi","allergies":["Sulfa"],"chronicConditions":["Asthma"],"createdAt":"2025-01-14T08:00:00.000Z","updatedAt":"2025-01-14T08:00:00.000Z"},
+  {"id":"pat-009","name":"Vijay Kumar","age":50,"gender":"Male","phone":"+917700003344","address":{"village":"V","taluka":"W","district":"X","state":"Z"},"language":"en","allergies":[],"chronicConditions":["Diabetes"],"createdAt":"2025-01-15T07:00:00.000Z","updatedAt":"2025-01-15T07:00:00.000Z"},
+  {"id":"pat-010","name":"Rekha Patel","age":38,"gender":"Female","phone":"+917700004455","address":{"village":"Y","taluka":"Z1","district":"Z2","state":"Z"},"language":"hi","allergies":[],"chronicConditions":[],"createdAt":"2025-01-16T08:00:00.000Z","updatedAt":"2025-01-16T08:00:00.000Z"}
+]
