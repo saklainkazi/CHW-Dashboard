@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom styles */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-gray-50 text-slate-800;
+}
+
+/* OTP inputs */
+.otp-input {
+  @apply w-12 h-12 md:w-14 md:h-14 text-center border rounded-lg text-xl;
+}
